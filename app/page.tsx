@@ -28,7 +28,7 @@ export default function Home() {
           }}
         >
           <img
-            src="/cover.png"
+            src="/book-cover.png"
             alt="Love and Other Malfunctions cover"
             style={{
               width: "320px",
@@ -70,8 +70,8 @@ export default function Home() {
 
             <p style={{ lineHeight: "1.7", marginBottom: "24px", fontSize: "18px" }}>
               When the lights start failing and the voices start offering help, Gwen does
-              what she’s always done: keep people calm, keep them moving, keep them safe.
-              But help isn’t always help anymore. Sometimes it’s a lure.
+              what she&apos;s always done: keep people calm, keep them moving, keep them safe.
+              But help isn&apos;t always help anymore. Sometimes it&apos;s a lure.
             </p>
 
             <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
@@ -149,7 +149,7 @@ export default function Home() {
           >
             <h2 style={{ marginTop: 0 }}>Look inside</h2>
             <p>
-              <em>"Seattle was trying to look friendly again."</em>
+              <em>&quot;Seattle was trying to look friendly again.&quot;</em>
             </p>
             <p style={{ lineHeight: "1.8", marginBottom: 0 }}>
               Start with the opening, then follow Gwen, Diego, and the dogs into a world

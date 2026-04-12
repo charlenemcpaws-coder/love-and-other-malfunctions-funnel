@@ -1,7 +1,6 @@
-import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata: Metadata = {
+export const metadata = {
   metadataBase: new URL("https://love-and-other-malfunctions-funnel.vercel.app"),
   title: "Love and Other Malfunctions",
   description:
@@ -10,14 +9,14 @@ export const metadata: Metadata = {
     title: "Love and Other Malfunctions",
     description:
       "A near-future survival story about loyalty, bad decisions, and dogs who refuse to give up on their humans. Author proceeds support Woofington Manor Rescue & Sanctuary and the rescue dream behind it.",
-    url: "https://love-and-other-malfunctions-funnel.vercel.app",
+    url: "https://love-and-other-malfunctions-funnel.vercel.app/",
     siteName: "Love and Other Malfunctions",
     images: [
       {
-        url: "/cover.png",
+        url: "/book-cover.png",
         width: 1600,
         height: 2560,
-        alt: "Love and Other Malfunctions book cover",
+        alt: "Love and Other Malfunctions cover",
       },
     ],
     type: "website",
@@ -27,15 +26,15 @@ export const metadata: Metadata = {
     title: "Love and Other Malfunctions",
     description:
       "A near-future survival story about loyalty, bad decisions, and dogs who refuse to give up on their humans. Author proceeds support Woofington Manor Rescue & Sanctuary and the rescue dream behind it.",
-    images: ["/cover.png"],
+    images: ["/book-cover.png"],
   },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body>{children}</body>
