@@ -1,0 +1,24 @@
+export default function Home() {
+  return (
+    <main style={{ padding: "40px", fontFamily: "Arial" }}>
+      <h1>Love and Other Malfunctions</h1>
+
+      <p>
+        In a world learning to hunt people, sometimes survival looks like loyalty,
+        bad decisions, and dogs who refuse to give up on their humans.
+      </p>
+
+      <button
+        onClick={() => window.open("https://a.co/d/05yOk09r", "_blank")}
+        style={{
+          padding: "12px 20px",
+          fontSize: "16px",
+          cursor: "pointer",
+          marginTop: "20px"
+        }}
+      >
+        Buy on Amazon
+      </button>
+    </main>
+  );
+}
