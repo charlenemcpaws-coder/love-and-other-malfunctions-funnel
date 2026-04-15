@@ -167,26 +167,46 @@ export default function Home() {
               boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
             }}
           >
-            <h2 style={{ marginTop: 0 }}>Get book and Woofington updates</h2>
+            <h2 style={{ marginTop: 0 }}>Support Woofington</h2>
             <p style={{ lineHeight: "1.8", marginBottom: "16px" }}>
-              New releases, behind-the-scenes, and updates on the Woofington rescue dream.
+              Want to support the Woofington rescue dream directly?
             </p>
-            <a
-              href="https://preview.mailerlite.io/forms/2263320/184574913455064418/share"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: "inline-block",
-                padding: "14px 22px",
-                textDecoration: "none",
-                backgroundColor: "black",
-                color: "white",
-                borderRadius: "10px",
-                fontWeight: "bold",
-              }}
-            >
-              Join the email list
-            </a>
+
+            <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+              <a
+                href="https://www.paypal.com/donate/?hosted_button_id=D2MBGHWVN83CC"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "inline-block",
+                  padding: "14px 22px",
+                  textDecoration: "none",
+                  backgroundColor: "#0070ba",
+                  color: "white",
+                  borderRadius: "10px",
+                  fontWeight: "bold",
+                }}
+              >
+                Give with PayPal
+              </a>
+
+              <a
+                href="https://preview.mailerlite.io/forms/2263320/184574913455064418/share"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "inline-block",
+                  padding: "14px 22px",
+                  textDecoration: "none",
+                  backgroundColor: "black",
+                  color: "white",
+                  borderRadius: "10px",
+                  fontWeight: "bold",
+                }}
+              >
+                Join the email list
+              </a>
+            </div>
           </div>
         </div>
       </div>
